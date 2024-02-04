@@ -1,0 +1,15 @@
+.fbmainWrapper{
+    margin-top: 50px;
+}
+.featuredTitle{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.blogcardWrapper{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px
+}

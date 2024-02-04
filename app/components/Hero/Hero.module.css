@@ -1,0 +1,79 @@
+.heroSec{
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gradient{
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.74) 35%, rgba(0,0,0,1) 65%, rgba(0,0,0,1) 100%);
+}
+
+.swiperSLD{
+    height: 350px;
+    width: 100%;
+}
+
+.slide1{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.slide2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(131, 26, 32);
+}
+.slide3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(102, 28, 124);
+}
+
+.pagination{
+    bottom: 25px;
+    right: 40px;
+    z-index: 3;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationBTN{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 38px;
+    width: 60px;
+}
+
+.navLeftBTN svg, .navRightBTN svg, .navLeftBTN , .navRightBTN{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.paginationNUM{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50px;
+    line-height: .7;
+}
+
+.activeNUM{
+    font-size: 35px;
+    padding-right: 3px;
+}
+
+.slash{
+    font-size: 35px;
+    font-weight: 100;
+}
